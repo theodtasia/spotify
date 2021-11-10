@@ -2,8 +2,8 @@
   <div class="bg-dark h-screen">
     <div class="flex" style="height: 88vh">
       <navbar></navbar>
-      <div class="w-full h-full relative bg-blue-400">
-        <div class="w-full sticky top-0 bg-yellow-500 p-2"></div>
+      <div class="w-full h-full relative overflow-auto">
+        <div class="w-full sticky top-0"></div>
         <slot name="search-button"></slot>
       </div>
     </div>

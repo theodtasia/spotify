@@ -49,7 +49,9 @@ const actions = {
       );
       tracks[id] = { albumDescription, albumName, list };
     }
-
+    delete res.data.artists[0]["idArtist"];
+    console.log(res.data.artists[0].idArtist);
+    console.log(res.data.artists[0]);
     commit("returnTracks", tracks);
     commit("returnAlbums", getAlbums.data.album);
     commit("returnMvs", getMvs.data.mvids);

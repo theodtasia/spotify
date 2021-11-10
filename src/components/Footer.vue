@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-light" style="height: 12vh"></div>
+  <div class="w-full" style="height: 12vh"></div>
 </template>
 
 <script>
