@@ -13,9 +13,10 @@ import {
   faSearch,
   faMusic,
   faPlusCircle,
+  faPlayCircle,
 } from "@fortawesome/free-solid-svg-icons";
 Vue.component("font-awesome-icon", FontAwesomeIcon);
-library.add(faSearch, faHome, faMusic, faPlusCircle);
+library.add(faSearch, faPlayCircle, faHome, faMusic, faPlusCircle);
 
 new Vue({
   render: (h) => h(App),
